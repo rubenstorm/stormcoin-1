@@ -1,4 +1,4 @@
-baseURL: ''
+baseURL: 'https://rubenstorm.github.io/stormcoin-1/'
 languageCode: en-us
 title: My New Hugo Site
 theme: papermod
