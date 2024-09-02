@@ -1,4 +1,4 @@
-baseURL: 'https://rubenstorm.github.io/stormcoin-1/'
+baseURL: 'https://rubenstorm.github.io/stormcoin-1'
 languageCode: en-us
 title: My New Hugo Site
 theme: papermod
@@ -110,7 +110,7 @@ params:
     enabled: true # needs to be explicitly set
     # title: Ruben Storm
     # subtitle: "This is subtitle"
-    imageUrl: "images/logo.webp"
+    imageUrl: "/images/logo.webp"
     imageWidth: 120
     imageHeight: 120
     languages:
