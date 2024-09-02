@@ -1,0 +1,212 @@
+baseURL: ''
+languageCode: en-us
+title: My New Hugo Site
+theme: papermod
+paginate: 5
+# theme: PaperMod
+
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+# googleAnalytics: 
+
+enableEmoji: true
+
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+
+languages:
+  de:
+    contentDir: content/de
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    params:
+      subtitle: "Referenz, Tutorials und Erklärungen"
+    title: Ruben Storm (DE)
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: Ruben Storm
+    params: 
+      subtitle: "Reference, Tutorials, and Explanations"
+    buttons:
+      - name: Blog
+        url: posts
+      - name: Tags
+        url: tags
+      - name: Travel
+        url: travel
+    weight: 2
+
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  footer:
+    hideCopyright: false
+    hideVendorCopyright: true
+    
+  
+  hideFooter: false
+  hideFooterHome: false
+  hideFooterNav: false
+  
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+  ShareButtons: ["linkedin", "twitter", "facebook", "reddit", "whatsapp", "telegram"] # To customize which share buttons to be enabled on page
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /images/logo.webp
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    # title: Ruben Storm
+    # subtitle: "This is subtitle"
+    imageUrl: "/images/logo.webp"
+    imageWidth: 120
+    imageHeight: 120
+    languages:
+      de:
+        title: Ruben Storm (DE)
+        subtitle: Referenz, Tutorials und Erklärungen
+        imageTitle: Mein Bild
+      en:
+        title: Ruben Storm (EN)
+        subtitle: Reference, Tutorials, and Explanations
+        imageTitle: my image
+    
+    # buttons:
+    #  - name: Blog
+    #    url: posts
+    #  - name: Tags
+    #    url: tags
+    #  - name: Travel
+    #    url: travel
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: paypal
+      url: "https://paypal.me/rubenstorm"
+    - name: bitcoin
+      url: "WALLET"
+    - name: github
+      url: "https://github.com/"
+    - name: x
+      url: "https://x.com/rubenstorm"
+    - name: youtube
+      url: "https://youtube.com"
+    - name: flickr
+      url: "FLICKR"
+    - name: instagram
+      url: "insta"
+
+ #  analytics:
+ #   google:
+ #     SiteVerificationTag: "XYZabc"
+ #   bing:
+ #     SiteVerificationTag: "XYZabc"
+ #   yandex:
+ #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+
+      
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# menu:
+#      main:
+#        - name: kathegorien
+#          url: /de/categories/
+#          weight: 10
+#        - name: stichwörter
+#          url: /de/tags/
+#          weight: 20
+#        - name: blog
+#          url: /de/posts/
+#          weight: 30
+#        - name: example.org
+#          url: https://example.org
+#          weight: 40
+
