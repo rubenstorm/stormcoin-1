@@ -110,7 +110,7 @@ params:
     enabled: true # needs to be explicitly set
     # title: Ruben Storm
     # subtitle: "This is subtitle"
-    imageUrl: "/images/logo.webp"
+    imageUrl: "images/logo.webp"
     imageWidth: 120
     imageHeight: 120
     languages:

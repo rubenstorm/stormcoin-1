@@ -6,7 +6,7 @@ tags: ["erster","willkommen"]
 categories: ["beitrag","blog"]
 author: "Me"
 cover:
-  image: "/images/header-crypto.webp"
+  image: "images/header-crypto.webp"
   # can also paste direct link from external site
   # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
   alt: "Bild"
@@ -25,7 +25,7 @@ Noch mehr Text
 
  ![image][def]
 
-[def]: /images/header-travel.webp
+[def]: images/header-travel.webp
 
 
 
