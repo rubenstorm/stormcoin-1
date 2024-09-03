@@ -1,4 +1,4 @@
-baseURL: 'https://rubenstorm.github.io/stormcoin-1'
+baseURL: 'https://rubenstorm.github.io/stormcoin-1/'
 languageCode: en-us
 title: My New Hugo Site
 theme: papermod
@@ -39,14 +39,15 @@ languages:
     title: Ruben Storm
     params: 
       subtitle: "Reference, Tutorials, and Explanations"
-    buttons:
-      - name: Blog
-        url: posts
-      - name: Tags
-        url: tags
-      - name: Travel
-        url: travel
     weight: 2
+
+#buttons:
+#      - name: Blog
+#        url: posts
+#      - name: Tags
+#        url: tags
+#      - name: Travel
+#        url: travel
 
 
 minify:
@@ -209,4 +210,14 @@ markup:
 #        - name: example.org
 #          url: https://example.org
 #          weight: 40
+
+menu:
+  main: 
+    - name: blog
+      url: posts
+      weight: 30
+  buttons:
+    - name: Blog
+      url: posts
+      weight: 10
 

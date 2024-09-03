@@ -7,6 +7,8 @@ menu:
     main:
         weight: 1
         name: travel
+    buttons:
+        weight: 1
 ---
 
 My travels in this world
