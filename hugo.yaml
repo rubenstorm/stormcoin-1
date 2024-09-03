@@ -1,4 +1,4 @@
-baseURL: 'https://rubenstorm.github.io/stormcoin-1'
+baseURL: ''
 languageCode: en-us
 title: My New Hugo Site
 theme: papermod
@@ -39,14 +39,15 @@ languages:
     title: Ruben Storm
     params: 
       subtitle: "Reference, Tutorials, and Explanations"
-    buttons:
-      - name: Blog
-        url: posts
-      - name: Tags
-        url: tags
-      - name: Travel
-        url: travel
     weight: 2
+
+#buttons:
+#      - name: Blog
+#        url: posts
+#      - name: Tags
+#        url: tags
+#      - name: Travel
+#        url: travel
 
 
 minify:
@@ -102,12 +103,12 @@ params:
 
   label:
     text: "Home"
-    icon: /images/logo.webp
-    iconHeight: 35
+    icon: /logos/rubenstorm-500.png
+    iconHeight: 75
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     # title: Ruben Storm
     # subtitle: "This is subtitle"
     imageUrl: "/images/logo.webp"
@@ -209,4 +210,20 @@ markup:
 #        - name: example.org
 #          url: https://example.org
 #          weight: 40
+
+menu:
+  main: 
+    - name: blog
+      url: posts
+      weight: 30
+  buttons:
+    - name: Blog
+      url: posts
+      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
