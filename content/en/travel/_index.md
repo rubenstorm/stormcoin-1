@@ -11,4 +11,8 @@ menu:
         weight: 1
 ---
 
+![][defHead]
+
 My travels in this world
+
+[defHead]: /images/header-travel.webp

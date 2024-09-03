@@ -14,4 +14,8 @@ cover:
   relative: false # To use relative path for cover image, used in hugo Page-bundles
 ---
 
+![][defHead]
+
 Traveling in Egypt
+
+[defHead]: /images/header-travel-afrika.webp
